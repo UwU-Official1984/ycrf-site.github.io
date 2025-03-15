@@ -35,13 +35,13 @@ a {
 .logoContainer {
     margin: 1rem 0;
     position: relative;
-    height: 100px;
+    height: 300px;
     aspect-ratio: 1;
     border-radius: 50%;
     margin-bottom: 2rem;
     animation: fadeIn 1s;
-    --glitch-width: 35%;
-    --glitch-height: 35%;
+    --glitch-width: 100%;
+    --glitch-height: 100%;
     --gap-horizontal: 10px;
     --gap-vertical: 5px;
     --time-anim: 4s;
@@ -60,9 +60,9 @@ a {
 .glitch {
   position: absolute;
 	width: var(--glitch-width);
-  max-width: 40%;
+  max-width: 100%;
 	height: var(--glitch-height);
-  max-height: 20%
+  max-height: 100%
 	overflow: hidden;
 }
 
