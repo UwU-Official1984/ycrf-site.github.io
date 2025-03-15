@@ -6,7 +6,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-color: #413b71;
+    background-color: #000000;
     overflow: hidden;
     height: 100%;
 }
@@ -26,7 +26,6 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%;
 }
 
 a {
@@ -63,7 +62,7 @@ a {
 
 .link {
     height: 2.75rem;
-    width: 85%;
+    width: 68%;
     max-width: 600px;
     display: flex;
     align-items: center;
