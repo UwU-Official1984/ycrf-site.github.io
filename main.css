@@ -89,7 +89,7 @@ a {
     font-weight: 500;
     margin-bottom: 2rem;
     color: white;
-    text-align: justify;
+    text-align: center;
     text-shadow: 2px 2px 2px black, 0 0 1em grey, 0 0 0.2em grey;
     animation: fadeIn 1s;
 }
