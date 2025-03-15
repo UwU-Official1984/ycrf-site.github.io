@@ -15,7 +15,7 @@ export const links = [
         "https://open.spotify.com/artist/6Q7E3LvxTIkk0XdHUjIFeS",
     },
     {
-        name: "Gorehog Merchandise (YCRF Merch Here!)",
+        name: "Gorehog Merchandise",
         link:
         "https://gorehogmerchandise.bigcartel.com/",
     },
