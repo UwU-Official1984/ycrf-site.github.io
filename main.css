@@ -32,10 +32,6 @@ a {
     font-weight: 600;
 }
 
-.about {
-     text-shadow: 2px 2px 0px #FF0000;
-}
-
 .logo {
     position: relative;
     height: 100%;
@@ -76,6 +72,7 @@ a {
     animation: fadeIn 1s;
 }
 
+
 .greetings {
     font-size: 2rem;
     font-weight: 700;
@@ -89,11 +86,12 @@ a {
     font-weight: 500;
     margin-bottom: 2rem;
     color: white;
+    text-shadow: 2px 2px 2px black, 0 0 1em grey, 0 0 0.2em grey;
     animation: fadeIn 1s;
 }
 
 .link span {
-    width: 80%;
+    width: 70%;
     text-align: center;
 }
 
