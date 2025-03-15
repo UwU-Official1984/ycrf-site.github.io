@@ -1,27 +1,23 @@
 export const links = [
     {
-        name: "Bitch Beheading Tee (Gorehog)",
+        name: "Instagram",
         link:
-        "https://gorehogmerchandise.bigcartel.com/product/uwu-unbridled-slamming-weebgore",
-    },
-    {
-        name: "Spotify",
-        link:
-        "https://open.spotify.com/artist/6U9EOynMGBVG1KQrrrzgkS",
+        "https://instagram.com/yanderechainsawregurgitation/",
     },
     {
         name: "Bandcamp",
         link:
-        "https://u-w-u.bandcamp.com",
+        "https://yanderechainsawregurgitationfactory.bandcamp.com/",
     },
     {
-        name: "Instagram",
+        name: "Spotify",
         link:
-        "https://www.instagram.com/u.w.u.official",
+        "https://open.spotify.com/artist/6Q7E3LvxTIkk0XdHUjIFeS",
     },
     {
-        name: "E-mail",
+        name: "Gorehog Merchandise (YCRF Merch Here!)",
         link:
-        "mailto:uwuofficial1984@gmail.com",
+        "https://gorehogmerchandise.bigcartel.com/",
     },
+
 ];
