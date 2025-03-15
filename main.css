@@ -63,7 +63,7 @@ a {
 
 .link {
     height: 2.75rem;
-    width: 600px;
+    width: fit-content;
 
     display: flex;
     align-items: center;
