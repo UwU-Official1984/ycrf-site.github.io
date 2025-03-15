@@ -54,7 +54,6 @@ a {
 .glitch img {
 	position: relative;
 	z-index: 1;
-	display: block;
 }
 .glitch__layers {
 	position: absolute;
