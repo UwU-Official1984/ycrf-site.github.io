@@ -32,6 +32,9 @@ a {
     font-weight: 600;
 }
 
+.about {
+     text-shadow: 2px 2px 0px #FF0000;
+}
 
 .logo {
     position: relative;
