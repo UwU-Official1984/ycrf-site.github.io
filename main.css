@@ -58,11 +58,12 @@ a {
     display: flex;
     flex-direction: column;
     animation: fadeIn 1s;
+    align-items: center;
 }
 
 .link {
     height: 2.75rem;
-    width: 68%;
+    width: 90%;
     max-width: 600px;
     display: flex;
     align-items: center;
@@ -88,12 +89,13 @@ a {
     font-weight: 500;
     margin-bottom: 2rem;
     color: white;
+    text-align: justify;
     text-shadow: 2px 2px 2px black, 0 0 1em grey, 0 0 0.2em grey;
     animation: fadeIn 1s;
 }
 
 .link span {
-    width: 70%;
+    width: 90%;
     text-align: center;
 }
 
