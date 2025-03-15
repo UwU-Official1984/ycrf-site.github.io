@@ -32,6 +32,30 @@ a {
     font-weight: 600;
 }
 
+.logoContainer {
+    margin: 1rem 0;
+    position: relative;
+    height: 225px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    animation: fadeIn 1s;
+    --glitch-width: 100vw;
+    --glitch-height: 100vh;
+    --gap-horizontal: 10px;
+    --gap-vertical: 5px;
+    --time-anim: 4s;
+  	--blend-mode-1: none;
+  	--blend-mode-2: none;
+  	--blend-mode-3: none;
+  	--blend-mode-4: overlay;
+  	--blend-mode-5: overlay;
+  	--blend-color-1: transparent;
+  	--blend-color-2: transparent;
+  	--blend-color-3: transparent;
+  	--blend-color-4: #fb909a;
+  	--blend-color-5: #1c1cc9;
+}
 
 .glitch {
 	position: relative;
