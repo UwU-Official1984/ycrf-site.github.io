@@ -40,8 +40,8 @@ a {
     border-radius: 50%;
     margin-bottom: 2rem;
     animation: fadeIn 1s;
-    --glitch-width: 100vw;
-    --glitch-height: 100vh;
+    --glitch-width: 35%;
+    --glitch-height: 35%;
     --gap-horizontal: 10px;
     --gap-vertical: 5px;
     --time-anim: 4s;
@@ -58,28 +58,25 @@ a {
 }
 
 .glitch {
-	position: relative;
+  position: absolute;
 	width: var(--glitch-width);
-	max-width: 400px;
+  max-width: 40%;
 	height: var(--glitch-height);
-	max-height: calc(400px * 1.25);
+  max-height: 20%
 	overflow: hidden;
-	margin: 0 auto;
 }
 
-.glitch:hover {
-	cursor: pointer;
-}
 
 .glitch__img {
-	position: absolute;
+  position: absolute;
 	top: calc(-1 * var(--gap-vertical));
 	left: calc(-1 * var(--gap-horizontal));
 	width: calc(100% + var(--gap-horizontal) * 2);
 	height: calc(100% + var(--gap-vertical) * 2);
   background: url(assets/ycrf-chainsaw-logo.jpg) no-repeat 50% 0;
-	background-color: var(--blend-color-1);
+  background-color: var(--blend-color-1);
 	background-size: cover;
+	transform: translate3d(0,0,0);
 	background-blend-mode: var(--blend-mode-1);
 }
 
