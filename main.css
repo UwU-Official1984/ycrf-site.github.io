@@ -43,7 +43,12 @@ a {
 }
 
 .glitch {
-	position: relative;
+  margin: 1rem 0;
+  position: relative;
+  height: 300px;
+  aspect-ratio: 1;
+  margin-bottom: 2rem;
+  animation: fadeIn 1s;
 	overflow: hidden;
 }
 .glitch img {
